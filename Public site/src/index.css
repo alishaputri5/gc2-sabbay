@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+/* @layer components {
+  .centered {
+    @apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+  .centered-bottom {
+    @apply bottom-0 left-1/2 -translate-x-1/2;
+  }
+  .centered-top {
+    @apply top-0 left-1/2 -translate-x-1/2;
+  }
+  .centered-left {
+    @apply top-1/2 left-0 -translate-y-1/2;
+  }
+  .centered-right {
+    @apply top-1/2 right-0 -translate-y-1/2;
+  }
+  .centered-horizontal {
+    @apply left-1/2 -translate-x-1/2;
+  }
+} */
